@@ -836,7 +836,6 @@ export function runFormGroupMixinSuite(cfg = {}) {
         expect(input.modelValue).to.equal('Bar');
 
         el.resetGroup();
-        expect(el.modelValue).to.deep.equal({ firstName: 'Foo' });
         expect(input.modelValue).to.equal('Foo');
       });
 
