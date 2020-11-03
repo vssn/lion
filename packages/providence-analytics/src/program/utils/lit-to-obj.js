@@ -20,4 +20,4 @@ function convertToObj(type, props, ...children) {
  */
 const litToObj = htm.bind(convertToObj);
 
-module.exports = litToObj;
+module.exports = { litToObj };
