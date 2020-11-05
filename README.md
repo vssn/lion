@@ -1,5 +1,6 @@
 # Lion Web Components
 
+## Test commit
 ```js script
 export default {
   title: 'Intro/Lion Web Components',
